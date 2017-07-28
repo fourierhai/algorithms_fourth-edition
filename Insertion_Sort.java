@@ -25,7 +25,7 @@ public class Insertion_Sort {
 			
 	public static void main(String[] args)
 	{
-		String[] a = {"z","t","o","h","c","b","a"};
+		String[] a = {"z","t","o","h","c","b","a","z"};
 		Insertion_Sort.sort(a);
 		show(a);
 		}
