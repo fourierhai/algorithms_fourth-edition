@@ -1,3 +1,8 @@
+/*快速排序_best-case: number of compares is ~NlgN
+ *         worst-case: number of compares is ~(1/2)(N^2)
+ *         average-case: ~(2N)lnN (and the number of exchanges is ~(1/3)NlnN).或者更具体的是 ~2(N + 1) lnN 约等于1.39NlgN
+ *
+ */
 package edu.princeton.cs.algs4;
 
 import java.util.Arrays;
